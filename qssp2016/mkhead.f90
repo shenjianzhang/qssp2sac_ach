@@ -67,7 +67,7 @@ open(unit=201,file=qsspinp,iostat=flag)
 if(flag .ne. 0) then
     write(*,*)"Unable to open the qssp input file ",qsspinp
     close(201)
-    return
+    stop
 end if
 
 ! uniform receiver depth
