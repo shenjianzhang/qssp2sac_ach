@@ -12,7 +12,7 @@
 #       mkhead    # write head info. into datafiles
 #       qssp2sac  # make SAC files according to datafiles
 # Run:
-#       ./qssp2sacmain.sh qsspinp qsspout
+#       ./qssp2sacmain-2016.sh qsspinp qsspout
 
 
 # prepare head info.
@@ -26,7 +26,7 @@ echo $qsspout >> mkhead.inp
 mkdir ./datafiles
 mkdir ./sacfiles 
 
-NR=`./mkhead < mkhead.inp`    # the number of receivers
+NR=`./mkhead-2016 < mkhead.inp`    # the number of receivers
 i=1
 while(((i <= $NR)))
 do
