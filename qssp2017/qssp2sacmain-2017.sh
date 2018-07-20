@@ -35,7 +35,7 @@ do
     # write data into datafiles
     awk '{print $1,$'$j'}' $qsspout >> ./datafiles/$datafile
     echo \"./datafiles/$datafile\" > qssp2sac.inp
-    ./qssp2sac-2017 < qssp2sac.inp
+    ./qssp2sac < qssp2sac.inp
     let "i += 1"
 done
 
