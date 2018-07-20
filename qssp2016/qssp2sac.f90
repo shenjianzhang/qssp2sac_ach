@@ -42,7 +42,7 @@ if(flag /= 0) then
     flag = 1
     write(*,*)"Unable to open data file ",datafile
     close(102)
-    return
+    stop
 end if
 ! read head info.
 read(102,203)dt,npts,b0
