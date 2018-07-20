@@ -8,7 +8,6 @@
 !       ifort -c sacio.f90
 !       ifort -c qssp2sac.f90
 !       ifort sacio.o qssp2sac.o -o qssp2sac
-!   or: ifort sacio.f90 qssp2sac.f90 -o qssp2sac
 !       gfortran can also be used.
 ! Input:
 !       datafile
