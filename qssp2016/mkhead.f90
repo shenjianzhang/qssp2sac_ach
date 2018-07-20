@@ -5,6 +5,9 @@
 ! Author:
 !       Shenjian Zhang,    sjzhang@pku.edu.cn
 !
+! Compile:
+!       ifort mkhead.f90 skipline.f90 -o mkhead
+!
 ! Input:
 !       Line 1. the name of qssp input file
 !       Line 2. the name of qssp output file(data-file)
