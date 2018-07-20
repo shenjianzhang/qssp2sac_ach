@@ -5,9 +5,11 @@
 !       Shenjian Zhang,    sjzhang@pku.edu.cn
 !
 ! Compile:
-!       gfortran -c sacio.f90
-!       gfortran -c qssp2sac.f90
-!       gfortran sacio.o qssp2sac.o -o qssp2sac
+!       ifort -c sacio.f90
+!       ifort -c qssp2sac.f90
+!       ifort sacio.o qssp2sac.o -o qssp2sac
+!   or: ifort sacio.f90 qssp2sac.f90 -o qssp2sac
+!       gfortran can also be used.
 ! Input:
 !       datafile
 !       Line 1: dt, npts, b0(time reduction)
