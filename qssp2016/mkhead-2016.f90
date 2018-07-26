@@ -164,6 +164,6 @@ end do
 write(*,'(I3)')nr
 
 203 format(F8.2,I8,F8.2)
-204 format(6(F8.2),A20,A20)
+204 format(6(F8.2),A40,A20)
 
 end program
